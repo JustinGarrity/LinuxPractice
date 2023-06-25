@@ -6,7 +6,7 @@
 # export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/jin/.oh-my-zsh"
+export ZSH="/home/justingarrity/.oh-my-zsh"
 ZSH_THEME="daveverwer"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -103,7 +103,7 @@ alias gitl="git log"
 alias gitlp="git log -p"
 alias gitlg="git log --oneline --graph --decorate --abbrev-commit"
 
-source /home/jin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/justingarrity/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -128,10 +128,10 @@ print_greeting () {
   hour=$1
   if [ $hour -ge 6 ] && [ $hour -lt 12 ]
   then
-    echo -e "${Yellow} 진님 좋은 아침입니다!"
+    echo -e "${Yellow} Good Morning Justin!"
   elif [ $hour -ge 12 ] && [ $hour -lt 18 ]
   then
-    echo -e "${Cyan} Good Afternoon, Jin ;)"
+    echo -e "${Cyan} Good Afternoon, Justin ;)"
   elif [ $hour -ge 18 ] && [ $hour -lt 24 ]
   then
     echo -e "${Green} Good Evening~!"
